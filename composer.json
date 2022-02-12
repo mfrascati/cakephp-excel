@@ -11,7 +11,7 @@
     },
     "require-dev": {
         "cakephp/cakephp": "^4.0",
-        "cakephp/cakephp-codesniffer": "*",
+        "cakephp/cakephp-codesniffer": "*"
     },
     "autoload": {
         "psr-4": {
