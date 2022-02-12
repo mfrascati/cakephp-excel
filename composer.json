@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.2",
-        "cakephp/filesystem": "^5.0",
+        "cakephp/filesystem": "^4.0",
         "phpoffice/phpspreadsheet": "^1.16"
     },
     "require-dev": {
