@@ -4,9 +4,15 @@
     "homepage": "https://github.com/robotusers/cakephp-excel",
     "type": "cakephp-plugin",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mfrascati/cakephp-filesystem"
+        },
+    ],
     "require": {
         "php": ">=8.3",
-        "cakephp/filesystem": "^5.1",
+        "mfrascati/cakephp-filesystem": "dev-main",
         "phpoffice/phpspreadsheet": "^1.16"
     },
     "require-dev": {
