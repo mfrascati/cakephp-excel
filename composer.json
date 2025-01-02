@@ -5,12 +5,12 @@
     "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.3",
         "cakephp/filesystem": "^4.0",
         "phpoffice/phpspreadsheet": "^1.16"
     },
     "require-dev": {
-        "cakephp/cakephp": "^4.0",
+        "cakephp/cakephp": "^5.0",
         "cakephp/cakephp-codesniffer": "*"
     },
     "autoload": {
