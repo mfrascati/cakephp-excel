@@ -68,7 +68,7 @@ class ExcelBehavior extends Behavior
      *
      * @var array
      */
-    protected $_defaultConfig = [
+    protected array $_defaultConfig = [
         'startRow' => 1,
         'endRow' => null,
         'startColumn' => 'A',
