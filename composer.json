@@ -1,12 +1,18 @@
 {
-    "name": "robotusers/cakephp-excel",
-    "description": "Robotusers CakePHP Excel plugin",
-    "homepage": "https://github.com/robotusers/cakephp-excel",
+    "name": "mfrascati/cakephp-excel",
+    "description": "Robotusers CakePHP Excel plugin fork",
+    "homepage": "https://github.com/mfrascati/cakephp-excel",
     "type": "cakephp-plugin",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mfrascati/cakephp-filesystem"
+        }
+    ],
     "require": {
         "php": ">=5.6",
-        "cakephp/filesystem": "^3.4",
+        "mfrascati/filesystem": "dev-main",
         "cakephp/orm": "^3.4",
         "phpoffice/phpspreadsheet": "^1.1"
     },
