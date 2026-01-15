@@ -27,8 +27,11 @@ namespace Robotusers\Excel;
 use Cake\Core\BasePlugin;
 
 /**
+ * Plugin class for CakePHP 5.3+.
+ *
  * @author Robert Pustułka <robert.pustulka@gmail.com>
  */
-class Plugin extends BasePlugin
+class ExcelPlugin extends BasePlugin
 {
 }
+
