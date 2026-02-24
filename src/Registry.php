@@ -149,10 +149,11 @@ class Registry
         ];
 
         $table = $this->getTableLocator()->get($alias, $options);
-        $table->setSchema($schema)
-            ->setFile($file)
-            ->setWorksheet($worksheet)
-            ->readSpreadsheet();
+        $table->setSchema($schema);
+        $excel = $table->getBehavior('Excel');
+        $excel->setFile($file);
+        $excel->setWorksheet($worksheet);
+        $excel->readSpreadsheet();
 
         return $table;
     }
