@@ -34,6 +34,7 @@ use Cake\Utility\Inflector;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use Robotusers\Excel\Database\Factory;
 use Robotusers\Excel\Excel\Manager;
+use Robotusers\Excel\Model\Behavior\ExcelBehavior;
 use Robotusers\Excel\Model\Sheet;
 use Robotusers\Excel\Traits\DiscoverWorksheetTrait;
 
@@ -150,6 +151,7 @@ class Registry
 
         $table = $this->getTableLocator()->get($alias, $options);
         $table->setSchema($schema);
+        /** @var ExcelBehavior $excel */
         $excel = $table->getBehavior('Excel');
         $excel->setFile($file);
         $excel->setWorksheet($worksheet);
